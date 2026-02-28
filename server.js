@@ -17,7 +17,7 @@ const gun = Gun({
         secret: process.env.AWS_SECRET_ACCESS_KEY, 
         bucket: process.env.AWS_S3_BUCKET_NAME,
 	 // Gun se ocupă de regiune automat în majoritatea cazurilor
-    }
+    },
     peers: [
         // Add the URLs of the other Gun servers you want to sync with here
         // Make sure to include the '/gun' path at the end
